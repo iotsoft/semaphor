@@ -1,9 +1,9 @@
 # semaphor
 ## Local installation with flag --force, because of chip-ui system requirements 
-'npm install -f'
+`npm install -f`
 
 ## Build
-'npm run build'
+`npm run build`
 
 ## Devloping
-'npm run watch'
+`npm run watch`
