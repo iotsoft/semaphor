@@ -1,5 +1,5 @@
 # semaphor
-## Local installation with flag --force, because of chip-ui system requirements 
+## Local installation with flag --force, because of chip-io system requirements 
 `npm install -f`
 
 ## Build
