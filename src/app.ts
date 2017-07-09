@@ -72,7 +72,7 @@ class SemaphorApp {
             console.log('Build Failed');
             this.buildFailed();
             break;
-          case 'Success':
+          case 'Passed':
             console.log('Build Succeeded');
             this.buildSuccess();
             break;
