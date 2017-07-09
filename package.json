@@ -1,0 +1,27 @@
+{
+  "name": "semaphor",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "watch": "./node_modules/.bin/tsc -w",
+    "build": "./node_modules/.bin/tsc",
+    "postinstall": "npm run build"
+  },
+  "private": true,
+  "dependencies": {
+    "@slack/client": "^3.10.0",
+    "@types/azure": "^0.9.19",
+    "@types/azure-sb": "0.0.29",
+    "@types/johnny-five": "0.0.31",
+    "@types/node": "^8.0.9",
+    "azure": "^2.0.0-preview",
+    "azure-storage": "^2.2.1",
+    "http": "0.0.0",
+    "johnny-five": "^0.11.3",
+    "slack-node": "^0.1.8",
+    "typescript": "^2.4.1"
+  },
+  "devDependencies": {
+    "tslint": "~4.5.0"
+  }
+}
